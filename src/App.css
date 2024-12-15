@@ -1,0 +1,162 @@
+/* Header container */
+.header-container {
+  background-color: #778091; 
+  color: #ffffff; 
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #61dafb; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+/* Header content */
+.header-content {
+  margin: 0 auto;
+  max-width: 1200px; 
+}
+
+/* Header title */
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+/* General container styles */
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+
+/* Container styles */
+.user-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #f5f5f5; 
+  margin: 0;
+  padding: 20px;
+}
+
+/* Search bar */
+.search-bar {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+/* Individual card wrapper */
+.user-card-wrapper {
+  flex: 1 1 calc(33% - 20px); 
+  max-width: 300px;
+  min-width: 250px;
+}
+
+/* User cards container */
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+  width: 100%;
+}
+
+/* Card styling */
+.user-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Avatar styling */
+.user-avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+}
+
+
+/* Loading and no more users text */
+.loading-text {
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* General form styling */
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width */
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.search-form input {
+  padding: 10px;   
+  margin-top: 20px;;       
+  font-size: 16px;         
+  border: 1px solid #ccc;  
+  border-radius: 5px;      
+  outline: none;           
+}
+
+/* Input field styling */
+.search-input {
+  width: 100%; 
+  max-width: 600px; 
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus effect on input */
+.search-input:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .search-input {
+    max-width: 100%; 
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Name styles */
+.user-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; 
+}
+
+/* Info styles */
+.user-info {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #555; 
+}
+
